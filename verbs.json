@@ -1,0 +1,602 @@
+[
+  {
+    "id": "be",
+    "infinitive": "be",
+    "past": "was/were",
+    "participle": "been",
+    "german": "sein"
+  },
+  {
+    "id": "go",
+    "infinitive": "go",
+    "past": "went",
+    "participle": "gone",
+    "german": "gehen, fahren"
+  },
+  {
+    "id": "beat",
+    "infinitive": "beat",
+    "past": "beat",
+    "participle": "beaten/beat (AE)",
+    "german": "schlagen"
+  },
+  {
+    "id": "become",
+    "infinitive": "become",
+    "past": "became",
+    "participle": "become",
+    "german": "werden"
+  },
+  {
+    "id": "begin",
+    "infinitive": "begin",
+    "past": "began",
+    "participle": "begun",
+    "german": "beginnen, anfangen"
+  },
+  {
+    "id": "break",
+    "infinitive": "break",
+    "past": "broke",
+    "participle": "broken",
+    "german": "(zer)brechen, kaputtgehen"
+  },
+  {
+    "id": "bring",
+    "infinitive": "bring",
+    "past": "brought",
+    "participle": "brought",
+    "german": "(mit-, her-)bringen"
+  },
+  {
+    "id": "build",
+    "infinitive": "build",
+    "past": "built",
+    "participle": "built",
+    "german": "bauen"
+  },
+  {
+    "id": "buy",
+    "infinitive": "buy",
+    "past": "bought",
+    "participle": "bought",
+    "german": "kaufen"
+  },
+  {
+    "id": "catch",
+    "infinitive": "catch",
+    "past": "caught",
+    "participle": "caught",
+    "german": "fangen"
+  },
+  {
+    "id": "choose",
+    "infinitive": "choose",
+    "past": "chose",
+    "participle": "chosen",
+    "german": "(aus)wählen, aussuchen"
+  },
+  {
+    "id": "come",
+    "infinitive": "come",
+    "past": "came",
+    "participle": "come",
+    "german": "kommen"
+  },
+  {
+    "id": "cost",
+    "infinitive": "cost",
+    "past": "cost",
+    "participle": "cost",
+    "german": "kosten"
+  },
+  {
+    "id": "cut",
+    "infinitive": "cut",
+    "past": "cut",
+    "participle": "cut",
+    "german": "(aus)schneiden"
+  },
+  {
+    "id": "do",
+    "infinitive": "do",
+    "past": "did",
+    "participle": "done",
+    "german": "tun, machen"
+  },
+  {
+    "id": "draw",
+    "infinitive": "draw",
+    "past": "drew",
+    "participle": "drawn",
+    "german": "zeichnen"
+  },
+  {
+    "id": "dream",
+    "infinitive": "dream",
+    "past": "dreamt",
+    "participle": "dreamt",
+    "german": "träumen",
+    "notes": "Im amerikanischen Englisch auch dreamed/dreamed."
+  },
+  {
+    "id": "drink",
+    "infinitive": "drink",
+    "past": "drank",
+    "participle": "drunk",
+    "german": "trinken"
+  },
+  {
+    "id": "drive",
+    "infinitive": "drive",
+    "past": "drove",
+    "participle": "driven",
+    "german": "ein Fahrzeug führen"
+  },
+  {
+    "id": "eat",
+    "infinitive": "eat",
+    "past": "ate",
+    "participle": "eaten",
+    "german": "essen"
+  },
+  {
+    "id": "fall",
+    "infinitive": "fall",
+    "past": "fell",
+    "participle": "fallen",
+    "german": "(hin)fallen"
+  },
+  {
+    "id": "feed",
+    "infinitive": "feed",
+    "past": "fed",
+    "participle": "fed",
+    "german": "füttern"
+  },
+  {
+    "id": "feel",
+    "infinitive": "feel",
+    "past": "felt",
+    "participle": "felt",
+    "german": "fühlen, sich fühlen"
+  },
+  {
+    "id": "fight",
+    "infinitive": "fight",
+    "past": "fought",
+    "participle": "fought",
+    "german": "kämpfen"
+  },
+  {
+    "id": "find",
+    "infinitive": "find",
+    "past": "found",
+    "participle": "found",
+    "german": "finden"
+  },
+  {
+    "id": "fly",
+    "infinitive": "fly",
+    "past": "flew",
+    "participle": "flown",
+    "german": "fliegen"
+  },
+  {
+    "id": "forget",
+    "infinitive": "forget",
+    "past": "forgot",
+    "participle": "forgotten",
+    "german": "vergessen"
+  },
+  {
+    "id": "get",
+    "infinitive": "get",
+    "past": "got",
+    "participle": "got, gotten (AE)",
+    "german": "bekommen, kriegen, holen, besorgen"
+  },
+  {
+    "id": "give",
+    "infinitive": "give",
+    "past": "gave",
+    "participle": "given",
+    "german": "geben"
+  },
+  {
+    "id": "hang",
+    "infinitive": "hang",
+    "past": "hung",
+    "participle": "hung",
+    "german": "hängen, aufhängen"
+  },
+  {
+    "id": "have",
+    "infinitive": "have",
+    "past": "had",
+    "participle": "had",
+    "german": "haben"
+  },
+  {
+    "id": "hear",
+    "infinitive": "hear",
+    "past": "heard",
+    "participle": "heard",
+    "german": "hören"
+  },
+  {
+    "id": "hide",
+    "infinitive": "hide",
+    "past": "hid",
+    "participle": "hidden",
+    "german": "verstecken"
+  },
+  {
+    "id": "hit",
+    "infinitive": "hit",
+    "past": "hit",
+    "participle": "hit",
+    "german": "jemanden/etwas schlagen, treffen"
+  },
+  {
+    "id": "hold",
+    "infinitive": "hold",
+    "past": "held",
+    "participle": "held",
+    "german": "halten"
+  },
+  {
+    "id": "hurt",
+    "infinitive": "hurt",
+    "past": "hurt",
+    "participle": "hurt",
+    "german": "verletzen"
+  },
+  {
+    "id": "keep",
+    "infinitive": "keep",
+    "past": "kept",
+    "participle": "kept",
+    "german": "(be)halten"
+  },
+  {
+    "id": "know",
+    "infinitive": "know",
+    "past": "knew",
+    "participle": "known",
+    "german": "wissen, kennen"
+  },
+  {
+    "id": "learn",
+    "infinitive": "learn",
+    "past": "learnt",
+    "participle": "learnt",
+    "german": "lernen",
+    "notes": "Im amerikanischen Englisch auch learned/learned."
+  },
+  {
+    "id": "leave",
+    "infinitive": "leave",
+    "past": "left",
+    "participle": "left",
+    "german": "verlassen, weggehen, abfahren"
+  },
+  {
+    "id": "lend",
+    "infinitive": "lend",
+    "past": "lent",
+    "participle": "lent",
+    "german": "verleihen"
+  },
+  {
+    "id": "let",
+    "infinitive": "let",
+    "past": "let",
+    "participle": "let",
+    "german": "lassen"
+  },
+  {
+    "id": "lie",
+    "infinitive": "lie",
+    "past": "lay",
+    "participle": "lain",
+    "german": "liegen"
+  },
+  {
+    "id": "lose",
+    "infinitive": "lose",
+    "past": "lost",
+    "participle": "lost",
+    "german": "verlieren"
+  },
+  {
+    "id": "make",
+    "infinitive": "make",
+    "past": "made",
+    "participle": "made",
+    "german": "machen, herstellen"
+  },
+  {
+    "id": "mean",
+    "infinitive": "mean",
+    "past": "meant",
+    "participle": "meant",
+    "german": "bedeuten"
+  },
+  {
+    "id": "meet",
+    "infinitive": "meet",
+    "past": "met",
+    "participle": "met",
+    "german": "(sich) treffen"
+  },
+  {
+    "id": "overtake",
+    "infinitive": "overtake",
+    "past": "overtook",
+    "participle": "overtaken",
+    "german": "überholen"
+  },
+  {
+    "id": "pay",
+    "infinitive": "pay",
+    "past": "paid",
+    "participle": "paid",
+    "german": "bezahlen"
+  },
+  {
+    "id": "put",
+    "infinitive": "put",
+    "past": "put",
+    "participle": "put",
+    "german": "legen, stellen, (wohin) tun"
+  },
+  {
+    "id": "read",
+    "infinitive": "read",
+    "past": "read",
+    "participle": "read",
+    "german": "lesen",
+    "notes": "Aussprache beachten: read /riːd/, read /red/, read /red/."
+  },
+  {
+    "id": "ride",
+    "infinitive": "ride",
+    "past": "rode",
+    "participle": "ridden",
+    "german": "reiten, (Rad) fahren"
+  },
+  {
+    "id": "ring",
+    "infinitive": "ring",
+    "past": "rang",
+    "participle": "rung",
+    "german": "klingeln, läuten"
+  },
+  {
+    "id": "rise",
+    "infinitive": "rise",
+    "past": "rose",
+    "participle": "risen",
+    "german": "aufgehen, ansteigen"
+  },
+  {
+    "id": "run",
+    "infinitive": "run",
+    "past": "ran",
+    "participle": "run",
+    "german": "rennen, laufen"
+  },
+  {
+    "id": "say",
+    "infinitive": "say",
+    "past": "said",
+    "participle": "said",
+    "german": "sagen"
+  },
+  {
+    "id": "see",
+    "infinitive": "see",
+    "past": "saw",
+    "participle": "seen",
+    "german": "sehen, besuchen"
+  },
+  {
+    "id": "sell",
+    "infinitive": "sell",
+    "past": "sold",
+    "participle": "sold",
+    "german": "verkaufen"
+  },
+  {
+    "id": "send",
+    "infinitive": "send",
+    "past": "sent",
+    "participle": "sent",
+    "german": "schicken, senden"
+  },
+  {
+    "id": "set",
+    "infinitive": "set",
+    "past": "set",
+    "participle": "set",
+    "german": "setzen, stellen, legen"
+  },
+  {
+    "id": "shake",
+    "infinitive": "shake",
+    "past": "shook",
+    "participle": "shaken",
+    "german": "schütteln, zittern"
+  },
+  {
+    "id": "shine",
+    "infinitive": "shine",
+    "past": "shone",
+    "participle": "shone",
+    "german": "scheinen"
+  },
+  {
+    "id": "show",
+    "infinitive": "show",
+    "past": "showed",
+    "participle": "shown",
+    "german": "zeigen",
+    "notes": "Auch die regelmäßige Form showed/showed ist möglich."
+  },
+  {
+    "id": "shut",
+    "infinitive": "shut",
+    "past": "shut",
+    "participle": "shut",
+    "german": "schließen"
+  },
+  {
+    "id": "sing",
+    "infinitive": "sing",
+    "past": "sang",
+    "participle": "sung",
+    "german": "singen"
+  },
+  {
+    "id": "sink",
+    "infinitive": "sink",
+    "past": "sank",
+    "participle": "sunk",
+    "german": "sinken, untergehen"
+  },
+  {
+    "id": "sit",
+    "infinitive": "sit",
+    "past": "sat",
+    "participle": "sat",
+    "german": "sitzen, sich setzen"
+  },
+  {
+    "id": "sleep",
+    "infinitive": "sleep",
+    "past": "slept",
+    "participle": "slept",
+    "german": "schlafen"
+  },
+  {
+    "id": "slide",
+    "infinitive": "slide",
+    "past": "slid",
+    "participle": "slid",
+    "german": "gleiten, rutschen"
+  },
+  {
+    "id": "speak",
+    "infinitive": "speak",
+    "past": "spoke",
+    "participle": "spoken",
+    "german": "sprechen"
+  },
+  {
+    "id": "spend",
+    "infinitive": "spend",
+    "past": "spent",
+    "participle": "spent",
+    "german": "Geld ausgeben, Zeit verbringen"
+  },
+  {
+    "id": "stand",
+    "infinitive": "stand",
+    "past": "stood",
+    "participle": "stood",
+    "german": "stehen, sich hinstellen"
+  },
+  {
+    "id": "steal",
+    "infinitive": "steal",
+    "past": "stole",
+    "participle": "stolen",
+    "german": "stehlen"
+  },
+  {
+    "id": "stick",
+    "infinitive": "stick",
+    "past": "stuck",
+    "participle": "stuck",
+    "german": "kleben, stecken bleiben"
+  },
+  {
+    "id": "swim",
+    "infinitive": "swim",
+    "past": "swam",
+    "participle": "swum",
+    "german": "schwimmen"
+  },
+  {
+    "id": "take",
+    "infinitive": "take",
+    "past": "took",
+    "participle": "taken",
+    "german": "(mit)nehmen, (weg)bringen, dauern"
+  },
+  {
+    "id": "teach",
+    "infinitive": "teach",
+    "past": "taught",
+    "participle": "taught",
+    "german": "lehren, unterrichten"
+  },
+  {
+    "id": "tell",
+    "infinitive": "tell",
+    "past": "told",
+    "participle": "told",
+    "german": "erzählen, berichten"
+  },
+  {
+    "id": "think",
+    "infinitive": "think",
+    "past": "thought",
+    "participle": "thought",
+    "german": "(nach)denken, meinen, glauben"
+  },
+  {
+    "id": "throw",
+    "infinitive": "throw",
+    "past": "threw",
+    "participle": "thrown",
+    "german": "werfen"
+  },
+  {
+    "id": "understand",
+    "infinitive": "understand",
+    "past": "understood",
+    "participle": "understood",
+    "german": "verstehen"
+  },
+  {
+    "id": "wake",
+    "infinitive": "wake",
+    "past": "woke",
+    "participle": "woken",
+    "german": "wecken",
+    "notes": "Auch die regelmäßige Form waked/waked ist möglich."
+  },
+  {
+    "id": "wear",
+    "infinitive": "wear",
+    "past": "wore",
+    "participle": "worn",
+    "german": "anhaben, tragen"
+  },
+  {
+    "id": "win",
+    "infinitive": "win",
+    "past": "won",
+    "participle": "won",
+    "german": "gewinnen"
+  },
+  {
+    "id": "write",
+    "infinitive": "write",
+    "past": "wrote",
+    "participle": "written",
+    "german": "schreiben"
+  }
+]
