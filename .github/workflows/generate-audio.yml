@@ -1,1 +1,50 @@
+name: Audios für unregelmäßige Verben erstellen
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "verbs.json"
+      - "scripts/generate-audio.mjs"
+      - ".github/workflows/generate-audio.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-audio:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Node.js einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Audiodateien erstellen
+        run: node scripts/generate-audio.mjs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_MODEL_ID: eleven_multilingual_v2
+          ELEVENLABS_OUTPUT_FORMAT: mp3_44100_128
+
+      - name: Audiodateien speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "Keine neuen Audiodateien vorhanden."
+          else
+            git add audio
+            git commit -m "Audiodateien für Verben aktualisiert"
+            git push
+          fi
 
