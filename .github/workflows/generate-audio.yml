@@ -38,7 +38,11 @@ jobs:
       - name: Audiodateien speichern
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"  
+          git add -f audio/*.mp3
+          git add -f audio/.manifest.json
+
+          
 
           if git diff --quiet; then
             echo "Keine neuen Audiodateien vorhanden."
