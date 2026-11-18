@@ -1,0 +1,50 @@
+# Abhängigkeiten
+node_modules/
+
+# Umgebungsvariablen und geheime Schlüssel
+.env
+.env.*
+!.env.example
+
+# API-Schlüssel und private Konfigurationsdateien
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Protokolle
+*.log
+logs/
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor- und IDE-Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporäre Dateien
+.tmp/
+temp/
+.cache/
+*.tmp
+
+# Build- und Testdateien
+dist/
+build/
+coverage/
+.nyc_output/
+
+# npm- und yarn-Dateien
+.npm/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnpm-debug.log*
